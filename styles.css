@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+    
+    src: url("Travel Next.ttf");
+    font-family: Viajar;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #FFF6DC;
+    font-family: Viajar;
+}
+
+#hero {
+    background-image: url("images/Ciudad.jpg");
+    background-size: cover;
+    padding:5px 0px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero:hover {
+    background-image: url("images/Puente.jpg")
+}
+
+#main-title {
+    color: whitesmoke;
+    margin: 150px 0px 0px;
+    background: #ffbd00;
+    padding: 5px 10px 5px;
+    border-radius: 20px;
+}
+
+#second-title {
+    margin: 20px 0px 0px;
+    background: #7798ab;
+    color: whitesmoke;
+    width: 600px;
+    border-radius: 15px;
+    padding: 5px 0px 5px;
+}
+
+#third-title {
+    margin-top: 40px;
+    font-size: 20px;
+    background: #c84630;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+
+margin: 10px 20px 10px;
+width: 200px;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+.pics { 
+    width: 150px;
+    border-radius: 5px;
+   
+}
+
+.texts {
+    background: #FFF6DC;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border-bottom: 2px solid #7798AB;
+    border-right: 2px solid #7798AB;
+}  
+
+.card {
+    
+    background: #5DD39E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 10px auto 10px;
+    width: 500px;
+    border-bottom: 4px solid #7798AB;
+    border-right: 4px solid #7798AB;  
+}
+
+.avatar {
+    
+      width: 150px;
+      border-radius: 20px;  
+}
+
+.description {
+    
+    width: 300px;
+    font-size: 16px;
+}
